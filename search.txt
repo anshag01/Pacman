@@ -1,0 +1,24 @@
+What is the most significant thing you have learned from this exercise?
+
+I learnt the intricacies of 4 AI algorithms and how to create states
+which would be used for implementing it. In UCS, I took me a lot of time to
+implement how to do cycle checking because I was not properly adding nodes
+visited and checking if they were already present in the frontier. this was
+making my test cases to fail and I had to debug it. I utilized print statements
+to print intermediate results as using the debugger was hard for this
+assignment.
+
+While debugging, I realised how I had to add states in the set or list used at
+the time of popping items and not when we add successors. Further, I was
+required to iterate through all the items in the heap to use it for checking
+if there was any element already present with a smaller cost. This taught me
+how I was not properly grasping the concepts from just reading the slides.
+
+These 4 AI algorithms were also quite helpful in terms of learning about
+abstraction as we were not required to know much about the states while
+implementing them. Later, when questions 5-8 were being done, I understood
+how the state was supposed to be created and how everything beforehand was
+working. This made me understand the actual working of the code and how I can
+use abstraction to make code and functions easier to understand. The content
+from the lectures also helped me in the understanding of this part of the
+assignment.
